@@ -10,6 +10,12 @@
       "options": {
         "jestConfig": "apps/third-app/jest.config.ts"
       }
+    },
+    "lint": {
+      "outputs": ["{projectRoot}/outputfile.json"],
+      "options": {
+        "command": "eslint . -o outputfile.json"
+      }
     }
   },
   "tags": []
